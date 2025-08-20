@@ -18,11 +18,11 @@ public class DiscordListener extends ListenerAdapter {
     private final IpCommand ipCommand;
     private final TopBalCommand topBalCommand;
 
-    public DiscordListener(String channelId, String prefix, String serverName, String ipAddressJava, String ipAddressBedrock) {
+    public DiscordListener(String channelId, String prefix, String serverName, String ipAddressJava, String ipAddressBedrock, String currencySymbol, String leaderboardTitle) {
         this.channelId = channelId;
         this.prefix = prefix;
         this.ipCommand = new IpCommand(serverName, ipAddressJava, ipAddressBedrock);
-        this.topBalCommand = new TopBalCommand();
+        this.topBalCommand = new TopBalCommand(currencySymbol, leaderboardTitle);
     }
     @Override
     public void onMessageReceived(MessageReceivedEvent event) {
@@ -30,7 +30,6 @@ public class DiscordListener extends ListenerAdapter {
             return;
         }
         String message = event.getMessage().getContentDisplay();
-
 
         // Handle the ip command
         if (message.startsWith(prefix + "ip")) {

@@ -15,3 +15,5 @@ server:
   server-name: "YOUR_SERVER_NAME" # Replace with your Minecraft server name
   ip-address-java: "YOUR_JAVA_IP_ADDRESS" # Replace with your Java IP address
   ip-address-bedrock: "YOUR_BEDROCK_ADDRESS_INCLUDING_PORT" # Replace with your Bedrock IP address including your Bedrock Port
+  currency-symbol: "$" # Replace with your currency symbol
+  leaderboard-top-bal-title: "Balance Top Leaderboard" # Replace with your own title leaderboard

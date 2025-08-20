@@ -12,6 +12,7 @@ public final class DiscordServerStatus extends JavaPlugin {
     private String botToken;
     private String channelId;
     private String serverName;
+    private String leaderboardTitle;
     private String ipAddressJava;
     private String ipAddressBedrock;
     private Economy economy;
@@ -37,7 +38,8 @@ public final class DiscordServerStatus extends JavaPlugin {
         serverName = getConfig().getString("server.server-name");
         ipAddressJava = getConfig().getString("server.ip-address-java");
         ipAddressBedrock = getConfig().getString("server.ip-address-bedrock");
-
+        String currencySymbol = getConfig().getString("server.currency-symbol");
+        leaderboardTitle = getConfig().getString("server.leaderboard-top-bal-title");
 
         // Setup economy if Vault is present
         if(!setUpEconomy()) {
@@ -53,7 +55,7 @@ public final class DiscordServerStatus extends JavaPlugin {
         BotRegistry registry = new BotRegistry(botToken);
 
         registry.startBot();
-        registry.getJda().addEventListener(new DiscordListener(channelId, prefix, serverName, ipAddressJava, ipAddressBedrock));
+        registry.getJda().addEventListener(new DiscordListener(channelId, prefix, serverName, ipAddressJava, ipAddressBedrock, currencySymbol, leaderboardTitle));
 
     }
 

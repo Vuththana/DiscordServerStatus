@@ -15,7 +15,11 @@ import java.util.Map;
 
 public class TopBalCommand {
     private Economy economy;
-    public TopBalCommand() {
+    private final String currencySymbol;
+    private final String leaderboardTitle;
+    public TopBalCommand(String currencySymbol, String leaderboardTitle) {
+        this.currencySymbol = currencySymbol;
+        this.leaderboardTitle = leaderboardTitle;
         if (!setupEconomy()) {
             // Log an error to the server console so you know it failed on startup
             Bukkit.getLogger().severe("Failed to setup Vault economy. TopBal command will not work.");
@@ -43,7 +47,7 @@ public class TopBalCommand {
             String leaderboardTitle = Bukkit.getPluginManager()
                     .getPlugin("DiscordServerStatus")
                     .getConfig()
-                    .getString("leaderboard.title", "Default Leaderboard Title");
+                    .getString("server.leaderboard-top-bal-title", "Default Leaderboard Title");
             EmbedBuilder embed = new EmbedBuilder();
             embed.setTitle(leaderboardTitle);
             embed.setColor(Color.GREEN);
