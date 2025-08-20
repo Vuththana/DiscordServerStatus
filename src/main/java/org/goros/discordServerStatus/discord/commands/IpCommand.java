@@ -25,5 +25,7 @@ public class IpCommand {
 
         embed.addField("Java: ", ipAddressJava, false);
         embed.addField("Java: ", ipAddressBedrock, false);
+
+        event.getChannel().sendMessageEmbeds(embed.build()).queue();
     }
 }
