@@ -1,0 +1,3 @@
+org\goros\discordServerStatus\discord\BotRegistry\BotRegistry.class
+org\goros\discordServerStatus\discord\commands\IpCommand.class
+org\goros\discordServerStatus\listener\DiscordListener.class
