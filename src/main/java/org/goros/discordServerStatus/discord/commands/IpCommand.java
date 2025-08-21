@@ -1,31 +1,39 @@
 package org.goros.discordServerStatus.discord.commands;
 
 import net.dv8tion.jda.api.EmbedBuilder;
+import net.dv8tion.jda.api.entities.MessageEmbed;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
+import org.bukkit.configuration.ConfigurationSection;
+import org.goros.discordServerStatus.discord.commands.interfaces.ICommand;
+import org.goros.discordServerStatus.utils.EmbedConfigLoader;
+import org.goros.discordServerStatus.utils.EmbedFactory;
 
 import java.awt.*;
+import java.util.List;
 
-public class IpCommand {
-    private final String serverName;
-    private final String ipAddressJava;
-    private final String ipAddressBedrock;
-
-    public IpCommand (String serverName, String ipAddressJava, String ipAddressBedrock) {
-        this.serverName = serverName;
-        this.ipAddressJava = ipAddressJava;
-        this.ipAddressBedrock = ipAddressBedrock;
+public class IpCommand implements ICommand {
+    @Override
+    public String getName() {
+        return "ip";
     }
 
-    public void handleIpCommand(MessageReceivedEvent event) {
-        EmbedBuilder embed = new EmbedBuilder();
-        embed.setTitle(serverName + "IP Address");
-        embed.setColor(Color.BLUE);
-        embed.setDescription("Here are the IP addresses for both platform:");
+    @Override
+    public String getHelp() {
+        return "Shows the Minecraft server IP embed.";
+    }
 
-        embed.addField("Java: ", ipAddressJava, false);
-        embed.addField("Java: ", ipAddressBedrock, false);
+    @Override
+    public void execute(MessageReceivedEvent event, List<String> args) {
+        try {
+            ConfigurationSection config = EmbedConfigLoader.load("IP");
 
-        event.getChannel().sendMessageEmbeds(embed.build()).queue();
+            MessageEmbed embed = EmbedFactory.createEmbed(config, null, null);
+
+            event.getChannel().sendMessageEmbeds(embed).queue();
+        } catch (Exception e) {
+            e.printStackTrace();
+            event.getChannel().sendMessage("❌ Could not load the IP embed. Check Embed/IP.yml.").queue();
+        }
     }
 }

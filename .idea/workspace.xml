@@ -5,18 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dce37b4-ca4d-41b9-b83a-fc1083c9d812" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/SetOnlineStatusCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/interfaces/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/manager/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/utils/EmbedFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/utils/PlaceholderParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Embed/IP.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/DiscordServerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/DiscordServerStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/TopBalCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/TopBalCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/BotRegistry/BotRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/BotRegistry/BotRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/IpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/IpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/TopBalCommand.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/listener/DiscordListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/listener/DiscordListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/DiscordServerStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/DiscordServerStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/discord/commands/TopBalCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/discord/commands/TopBalCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/discord/BotRegistry/BotRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/discord/BotRegistry/BotRegistry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/discord/commands/IpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/discord/commands/IpCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/discord/commands/TopBalCommand.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/listener/DiscordListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/listener/DiscordListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/discord-1.0-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/discord-1.0-shaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/discord-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/discord-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-discord-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-discord-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/discord-1.0-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/discord-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-discord-1.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,8 +1,6 @@
 name: DiscordServerStatus
-version: '1.0'
+version: '1.5'
 main: org.goros.discordServerStatus.DiscordServerStatus
 api-version: '1.21'
 authors: [ Goros ]
-softdepend:
-  - Vault
 description: Keep your Discord community connected to your Minecraft server! Discord Server Status is a lightweight plugin that links your Minecraft server with Discord, allowing your players to check server information directly from your Discord server.

@@ -1,5 +1,10 @@
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\BotRegistry\BotRegistry.java
+C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\interfaces\ICommand.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\IpCommand.java
-C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\TopBalCommand.java
+C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\manager\CommandManager.java
+C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\SetOnlineStatusCommand.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\DiscordServerStatus.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\listener\DiscordListener.java
+C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\utils\EmbedConfigLoader.java
+C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\utils\EmbedFactory.java
+C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\utils\PlaceholderParser.java

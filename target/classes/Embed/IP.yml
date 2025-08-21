@@ -1,0 +1,38 @@
+# ===========================
+# Embed for Minecraft Server IP
+# Supports custom emojis, fields, and disabling sections
+# ===========================
+
+title: "🌐 Server IP"  # Custom emoji example: <name:id>
+description: "Here is the IP for our Minecraft server!"
+color: "#00bfff"  # HEX color for the embed
+
+author:
+  enable: true           # Set true to disable the author section entirely
+  name: "Minecraft Server"  # Can include custom emojis
+  url: "https://example.com"  # Set to "disable" or leave blank to disable
+  icon_url: "https://i.imgur.com/example.png"     # Set to "disable" to disable
+
+fields:
+  # Each field can have a name, value, and inline option
+  - name: "Java Edition"
+    value: "`play.example.xyz`"
+    inline: false  # true = field is inline, false = new line
+  - name: "Bedrock Edition"
+    value: "`bedrock.example.xyz`"
+    inline: false
+
+thumbnail:
+  enable: true           # Set true to disable the thumbnail section
+  url: "https://i.imgur.com/thumb.png"
+
+image:
+  enable: true           # Set true to disable the image/banner section
+  url: "https://i.imgur.com/banner.png"
+
+footer:
+  enable: true           # Set true to disable the footer section
+  text: "Minecraft Network • Stay connected!"  # Custom emoji supported, example <example:444444444444444444>
+  icon_url: "https://i.imgur.com/footer.png"  # Set to "disable" to disable
+
+timestamp: true  # true = show current timestamp, false = hide

@@ -1,4 +1,9 @@
-org\goros\discordServerStatus\discord\commands\TopBalCommand.class
+org\goros\discordServerStatus\utils\EmbedConfigLoader.class
+org\goros\discordServerStatus\discord\commands\SetOnlineStatusCommand.class
+org\goros\discordServerStatus\utils\EmbedFactory.class
 org\goros\discordServerStatus\discord\BotRegistry\BotRegistry.class
+org\goros\discordServerStatus\discord\commands\manager\CommandManager.class
+org\goros\discordServerStatus\utils\PlaceholderParser.class
+org\goros\discordServerStatus\discord\commands\interfaces\ICommand.class
 org\goros\discordServerStatus\discord\commands\IpCommand.class
 org\goros\discordServerStatus\listener\DiscordListener.class

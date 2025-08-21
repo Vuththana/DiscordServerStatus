@@ -6,7 +6,7 @@
 
     <groupId>org.goros</groupId>
     <artifactId>discord</artifactId>
-    <version>1.0</version>
+    <version>1.5</version>
     <packaging>jar</packaging>
 
     <name>discord</name>
@@ -73,10 +73,9 @@
         </repository>
 
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>placeholderapi</id>
+            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
-
     </repositories>
 
     <dependencies>
@@ -96,9 +95,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.MilkBowl</groupId>
-            <artifactId>VaultAPI</artifactId>
-            <version>1.7</version>
+            <groupId>me.clip</groupId>
+            <artifactId>placeholderapi</artifactId>
+            <version>2.11.6</version>
             <scope>provided</scope>
         </dependency>
 
