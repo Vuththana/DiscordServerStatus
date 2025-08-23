@@ -51,7 +51,7 @@ public final class DiscordServerStatus extends JavaPlugin {
     private void createIpConfig() {
         ipFile = new File(getDataFolder(), "Embed/IP.yml");
         if (!ipFile.exists()) {
-            saveResource("embed/ip.yml", false); // copy from JAR
+            saveResource("Embed/IP.yml", false); // copy from JAR
         }
         ipConfig = YamlConfiguration.loadConfiguration(ipFile);
     }
