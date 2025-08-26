@@ -1,12 +1,20 @@
-[Uploading README.md…]()
+Installation Guide
+Download the plugin .jar file and place it into your server’s plugins folder.
 
-# Discord Server Status
+Restart your Minecraft server to load the plugin.
 
-A plugin for displaying Server status via discord using command usages.
+Open config.yml and configure your Discord settings as needed.
 
-Features:
+Open Embed/IP.yml and configure your embeds as needed.
+Dependencies
+None required (Vault and Economy Provider removed for rework).
+✨ Features
+Editable Embeds – All Discord embeds are fully configurable via YAML.
 
-✅ IP Address Display
+Help Command – Displays a list of all available commands in Discord.
 
-Implementing more features soon...
+Set Status Command – Easily update your Discord bot’s online status (online, dnd, idle, invisible).
 
+IP Address Command – Display player IP addresses and counts in a dedicated Discord channel.
+
+Seamless Integration – Lightweight, reliable, and simple to configure.
