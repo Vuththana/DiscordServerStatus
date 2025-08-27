@@ -8,6 +8,7 @@
 discord:
   bot-token: "YOUR_BOT_TOKEN" # Replace with your Discord bot token
   channel-id: "YOUR_DISCORD_CHANNEL_ID"
+  minecraft-channel-id: "YOUR_DISCORD_CHANNEL_ID" # This will use for join and leave, more features adding soon
   prefix: "!" #Example: "!ip" will trigger the ip display
   online-status: "online" # online | dnd or do_not_disturb | invisible | idle
   activity-status: "Something"

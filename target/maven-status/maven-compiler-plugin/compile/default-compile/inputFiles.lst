@@ -6,6 +6,7 @@ C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordSe
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\SetOnlineStatusCommand.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\DiscordServerStatus.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\listener\DiscordListener.java
+C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\listener\MinecraftListener.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\utils\EmbedConfigLoader.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\utils\EmbedFactory.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\utils\PlaceholderParser.java
