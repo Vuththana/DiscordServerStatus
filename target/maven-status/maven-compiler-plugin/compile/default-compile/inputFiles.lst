@@ -2,6 +2,7 @@ C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordSe
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\interfaces\ICommand.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\IpCommand.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\manager\CommandManager.java
+C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\SetActivityStatus.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\discord\commands\SetOnlineStatusCommand.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\DiscordServerStatus.java
 C:\Users\PC\Documents\DiscordServerStatus-main\src\main\java\org\goros\discordServerStatus\listener\DiscordListener.java

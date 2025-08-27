@@ -1,6 +1,8 @@
 package org.goros.discordServerStatus;
 
 import net.dv8tion.jda.api.JDA;
+import org.bukkit.Bukkit;
+import org.bukkit.Statistic;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -34,7 +36,6 @@ public final class DiscordServerStatus extends JavaPlugin {
         }
 
         BotRegistry registry = new BotRegistry(botToken, onlineStatus);
-
         registry.startBot();
         registry.getJda().addEventListener(new DiscordListener(channelId, prefix));
 
