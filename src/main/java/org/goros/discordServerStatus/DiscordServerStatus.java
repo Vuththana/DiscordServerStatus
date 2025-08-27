@@ -9,6 +9,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.goros.discordServerStatus.discord.BotRegistry.BotRegistry;
 import org.goros.discordServerStatus.listener.DiscordListener;
+import org.goros.discordServerStatus.listener.MinecraftListener;
 
 import java.io.File;
 
@@ -40,7 +41,10 @@ public final class DiscordServerStatus extends JavaPlugin {
 
         BotRegistry registry = new BotRegistry(botToken, onlineStatus);
         registry.startBot();
-        registry.getJda().addEventListener(new DiscordListener(channelId, prefix));
+        jda = registry.getJda();
+        jda.addEventListener(new DiscordListener(channelId, prefix));
+
+        getServer().getPluginManager().registerEvents(new MinecraftListener(), this);
 
     }
 

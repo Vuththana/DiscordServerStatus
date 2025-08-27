@@ -1,4 +1,5 @@
 org\goros\discordServerStatus\utils\EmbedConfigLoader.class
+org\goros\discordServerStatus\listener\MinecraftListener.class
 org\goros\discordServerStatus\discord\commands\SetOnlineStatusCommand.class
 org\goros\discordServerStatus\utils\EmbedFactory.class
 org\goros\discordServerStatus\discord\BotRegistry\BotRegistry.class
