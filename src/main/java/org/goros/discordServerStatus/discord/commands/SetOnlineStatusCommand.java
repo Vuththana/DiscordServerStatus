@@ -35,7 +35,6 @@ public class SetOnlineStatusCommand implements ICommand {
             return;
         }
 
-        // We expect "!set status <value>", so we need at least 2 arguments.
         if (args.size() < 2 || !args.get(0).equalsIgnoreCase("status")) {
             event.getChannel().sendMessage("Invalid command usage. " + getHelp()).queue();
             return;

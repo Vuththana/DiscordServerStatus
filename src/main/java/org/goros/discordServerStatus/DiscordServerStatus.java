@@ -5,6 +5,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.Statistic;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.goros.discordServerStatus.discord.BotRegistry.BotRegistry;
 import org.goros.discordServerStatus.listener.DiscordListener;
@@ -18,11 +19,13 @@ public final class DiscordServerStatus extends JavaPlugin {
     private String onlineStatus;
     private File ipFile;
     private FileConfiguration ipConfig;
+    private static DiscordServerStatus instance;
 
     @Override
     public void onEnable() {
         saveDefaultConfig();
         createIpConfig();
+        instance = this;
         botToken = getConfig().getString("discord.bot-token");
         channelId = getConfig().getString("discord.channel-id");
         String prefix = getConfig().getString("discord.prefix", "!");
@@ -61,6 +64,9 @@ public final class DiscordServerStatus extends JavaPlugin {
         return ipConfig;
     }
 
+    public static DiscordServerStatus getInstance() {
+        return instance;
+    }
     public JDA getJda() {return jda;};
     public String getBotToken() { return botToken; }
     public String getChannelId() {

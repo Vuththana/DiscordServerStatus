@@ -2,6 +2,7 @@ package org.goros.discordServerStatus.discord.commands.manager;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import org.goros.discordServerStatus.discord.commands.IpCommand;
+import org.goros.discordServerStatus.discord.commands.SetActivityStatus;
 import org.goros.discordServerStatus.discord.commands.SetOnlineStatusCommand;
 import org.goros.discordServerStatus.discord.commands.interfaces.ICommand;
 
@@ -15,6 +16,7 @@ public class CommandManager {
 
         addCommand(new SetOnlineStatusCommand());
         addCommand(new IpCommand());
+        addCommand(new SetActivityStatus());
     }
 
     private void addCommand(ICommand command) {

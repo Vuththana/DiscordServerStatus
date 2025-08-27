@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_28-Aug-25_1_58_AM_[Changes]" date="1756321112443" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28-Aug-25_1_58_AM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 28-Aug-25 1:58 AM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/original-discord-1.5.jar" />
+    <option name="AFTER_PATH" value="target/original-discord-1.5.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28-Aug-25_1_58_AM_[Changes]/original-discord-1.5.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/discord-1.5.jar" />
+    <option name="AFTER_PATH" value="target/discord-1.5.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28-Aug-25_1_58_AM_[Changes]/discord-1.5.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/discord-1.5-shaded.jar" />
+    <option name="AFTER_PATH" value="target/discord-1.5-shaded.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28-Aug-25_1_58_AM_[Changes]/discord-1.5-shaded.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/org/goros/discordServerStatus/DiscordServerStatus.class" />
+    <option name="AFTER_PATH" value="target/classes/org/goros/discordServerStatus/DiscordServerStatus.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28-Aug-25_1_58_AM_[Changes]/DiscordServerStatus.class" />
+  </binary>
+</changelist>

@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dce37b4-ca4d-41b9-b83a-fc1083c9d812" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/SetActivityStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/DiscordServerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/DiscordServerStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/SetActivityStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/SetActivityStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/SetOnlineStatusCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/SetOnlineStatusCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/manager/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/goros/discordServerStatus/discord/commands/manager/CommandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/discord/commands/manager/CommandManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/DiscordServerStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/goros/discordServerStatus/DiscordServerStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/discord-1.5-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/discord-1.5-shaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/discord-1.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/discord-1.5.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-discord-1.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-discord-1.5.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +31,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="activity-status" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -101,5 +112,16 @@
       <updated>1755672498553</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

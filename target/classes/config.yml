@@ -10,3 +10,4 @@ discord:
   channel-id: "YOUR_DISCORD_CHANNEL_ID"
   prefix: "!" #Example: "!ip" will trigger the ip display
   online-status: "online" # online | dnd or do_not_disturb | invisible | idle
+  activity-status: "Something"
